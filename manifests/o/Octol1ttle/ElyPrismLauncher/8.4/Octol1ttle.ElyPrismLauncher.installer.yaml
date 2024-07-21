@@ -11,13 +11,11 @@ Installers:
   Dependencies:
     PackageDependencies:
       - PackageIdentifier: Microsoft.VCRedist.2015+.x64
-      - PackageIdentifier: Oracle.JavaRuntimeEnvironment
 - InstallerUrl: https://github.com/Octol1ttle/ElyPrismLauncher/releases/download/8.4/PrismLauncher-Windows-MSVC-arm64-Setup-8.4.exe
   Architecture: arm64
   InstallerSha256: 92adf37efcd5eab39bad8f7540744df4dd7311f5594dc13627ec6bb3fc4325d8
   Dependencies:
     PackageDependencies:
     - PackageIdentifier: Microsoft.VCRedist.2022.arm64
-    - PackageIdentifier: Oracle.JavaRuntimeEnvironment
 ManifestType: installer
 ManifestVersion: 1.6.0
